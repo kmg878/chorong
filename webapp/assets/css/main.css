@@ -1,0 +1,136 @@
+@CHARSET "UTF-8";
+
+@import "readingbetter.css";
+
+/* main */
+/* 메인 네비게이션 */
+/* 로그인박스 */
+
+#container {
+	width:1600px;
+	height:100%;
+}
+#left_main 
+{
+	display:table-row;
+	height:100%;
+	float: left;
+	background: #D9F0F4;
+	width:220px;
+}
+#center_main
+{
+	margin-left:30px;
+	display:table-row;
+	height: 100%;
+	width: 500px;
+	float: left;
+	min-width: 400px;"
+}
+
+
+#right_main
+{
+	margin-left:30px;
+	display:table-row;
+	height: 100%;
+	width: 500px;
+	float: left;
+	min-width: 400px;"
+}
+
+
+#container #loginbox, #helpcall {
+	padding:10px;
+	border-radius:10px;
+	text-align:center;
+	background-color:#FBFEFE;
+}
+#container  #loginbox h4 { text-align:left; }
+#container  #loginbox h4 a { float:right; font-size:0.75em; }
+#container  #loginbox form { margin-bottom:10px; }
+#container #myinfo_mini { margin-top:20px; text-align:left; font-size:0.85em; }
+
+/* 검색 박스 */
+#search {
+	padding:10px;
+	border-radius:5px;
+	text-align:center;
+	background-color:#FBFEFE;
+}
+.searchform { text-align:right; }
+#helpcall { 
+	text-align:left;
+	font-size:1em;
+	}
+
+#today_book_box {height:550px; background-image: url("http://ec2-52-34-170-68.us-west-2.compute.amazonaws.com/images/to_book.png");background-size:100%, 100%; background-repeat: no-repeat;}
+
+/* 컨텐츠 */
+#container #notice_box,
+#container #ranking_box {
+	width:100%;
+	margin:10px;
+	border:1px solid #333;
+	padding:10px;
+	background-color:#FBFEFE;
+	border-radius:5px;
+}
+/* 탭뷰 */
+#container .tab-box,
+#container .tab-box2 { margin:10px; text-align:center; }
+#container .tab-box ul,
+#container .tab-box2 ul { list-style-type:none; height:30px; }
+#container .tab-box ul li,
+#container .tab-box2 ul li {
+	float:right;
+	width:50px;
+	height:10px;
+	background-color:#ccc;
+	border:1px solid:#999;
+	margin-top:10px;
+	margin-right:5px;
+	border-radius:10px;
+	cursor:pointer;
+}
+#container .tab-box div,
+#container .tab-box2 div { width:100%; text-align:center; }
+#container .tab-box div { line-height:200px; }
+#container .tab-box ul li.selected,
+#container .tab-box2 ul li.selected { background-color:#fc6; cursor:default; }
+
+
+
+/* 공지 */
+#container #notice_list { list-style:disc; text-align:left; margin-left:20px; }
+
+/* 순위 테이블 */
+/* 테이블 첫번째 열*/
+#container #mtfirst { width:40px; text-align:center; }
+/* 테이블 두번째, 세번째 열 */
+#container #mtsecond, #mtthird { width:80px; text-align:center; }
+#container .tab-content {padding-top:60px; height: 380px; heigh }
+#container .tab-content a { font-size: 1.25em; }
+
+/*siteinfo*/
+div #radio-group-information   {
+   text-align:left;
+   width:800px;
+   padding:10px;
+   border:1px solid #666;
+   border-radius: 10px;
+}
+
+/* sitemap */
+#sitemap .table	{ text-align:left;}
+#sitemap .quiz	{ padding-left:10px; }
+
+
+/* manual */
+#manual #manual-content	{ 
+	text-align:left;
+	width:800px;
+	padding:10px;
+   	border:1px solid #666;
+   	border-radius: 10px;
+}

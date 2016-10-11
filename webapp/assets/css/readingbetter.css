@@ -1,0 +1,185 @@
+* {
+	margin: 0;
+	padding: 0
+}
+
+body {
+	font: 13px "留묒� 怨좊뵓", �룍��, 援대┝;
+	text-align: center;
+}
+
+html, body {
+	height: 100% !important;
+}
+
+ul, ol {
+	list-style-type: none
+}
+
+.container-fluid {
+	height: 100%;
+}
+
+#header {
+	background-image: url("../images/bg.png");
+	background-size: 60px, 60px;
+}
+
+#header #member
+{
+	width: 250px;
+}
+
+.asideWrap {
+	height: 100%;
+}
+
+#aside {
+	background-color: #D9F0F4;
+	height: 100%;
+	width: 200px;
+}
+
+#content {
+	width: 82%;
+	height: auto;
+}
+
+#footer {
+	background-color: #F3FAFB;
+}
+
+.small-menu, .menu-title {
+	text-align: right;
+	margin: 20px;
+	font-size: 1.25em;
+}
+
+.small-menu a {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.menu-title {
+	text-align: left;
+	font-weight: bold;
+}
+
+/* header */
+div #header	#logo {
+	width:250px;
+	margin: 0;
+	align: center;
+}
+div #header	#anim {
+	width:100px;
+	margin: 0;
+	align: center;
+}
+
+div #header table {
+	text-align: center;
+	width: 98%;
+	margin-left: auto;
+	margin-right:autt;
+	margin-bottom: 20px;
+}
+
+div #main table {
+	align: center;
+	width: 90%;
+	margin-top:10px;
+	margin-left: auto;
+	margin-right: auto 
+}
+div #main td{
+	padding:5px;
+}
+
+div #header #member {
+	text-align: right;
+	text-valign:top;
+	margin: 0;
+}
+
+
+div #header	#button {
+	height: auto;
+	width: 200px;
+	margin: 0;
+	
+}
+
+div #header	ul {
+	height: 20px;
+	margin: 0 20px 10px 0;
+	float: right;
+}
+
+div #header	li {
+	float: right;
+}
+
+div #header	a {
+	margin-left: 10px;
+}
+
+/* navigation */
+div #navigation {
+	background-color: #D9F0F4;
+	height: 100%;
+	font-size: 15px;
+}
+
+div #navigation ul {
+	width: 100%;
+}
+
+div #navigation li {
+	width: 100%;
+	background-color: #D9F0F4;
+	border: 1px solid #DADADA;
+}
+
+div #navigation li a {
+	display: block;
+	color: #4F4F4F;
+	width: 100%;
+	padding: 5px 10px;
+}
+
+div #navigation li:hover {
+	background-color: #F7FCFD;
+}
+
+div #navigation p #category {
+	width: 100%;
+	text-align: left;
+	font-size: 1.5em;
+	margin: 10px 0;
+	color: #f55;
+}
+
+/* 寃��깋 */
+#search_form {
+	width: 100%;
+	text-align: center;
+	margin: 20px;
+}
+
+input[type="text"] {
+	padding: 5px;
+	border: 1px solid #aaa
+}
+
+input[type="submit"] {
+	padding: 5px;
+	border: 1px solid #aaa;
+	background-color: #aaa;
+	font-weight: bold;
+	color: #fff;
+}
+
+input #kwd {
+	width: 250px;
+}
